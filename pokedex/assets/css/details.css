@@ -1,0 +1,52 @@
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #66CDB1;
+}
+
+.content img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em auto 0;
+}
+
+.poke-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+.poke-number {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #fff;
+}
+
+.poke-details .name-type ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.poke-details .name-type h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.poke-details .name-type ol li {
+    background-color: #7adeca;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    margin: 0 0.5em 0 0;
+}
